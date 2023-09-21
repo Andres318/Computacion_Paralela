@@ -1,7 +1,7 @@
 # Multiplicacion de Matrices
 
 ### Andres Valenzuela - Codigo:2190035 - Problema B: Multiplicación de Matrices
-En la carpeta presente encontrara los diferentes archivos correspondientes a cada una de las soluciones del problema: solucion secuencial y solucion paralela. El programa cuenta con la capacidad de multiplicar matrices tanto cuadradas (NxN * NxN), como no cuadradas (MxN * NxP), dichas dimensiones se pueden ajustar en las lineas 6, 7 y 8 de cada unos de los codigos en C:
+En la carpeta presente encontrara los diferentes archivos correspondientes a cada una de las soluciones del problema: solucion secuencial (archivos cuyo nombre inician con la palabra "secuencial") y solucion paralela (archivos cuyo nombre inician con la palabra "omp"). El programa cuenta con la capacidad de multiplicar matrices tanto cuadradas (NxN * NxN), como no cuadradas (MxN * NxP), dichas dimensiones se pueden ajustar en las lineas 6, 7 y 8 de cada unos de los codigos en C:
 
 ![Alt text](image.png)
 
