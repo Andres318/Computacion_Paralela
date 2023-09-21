@@ -28,7 +28,7 @@ Matriz 2 = 6x9
 Como se puede observar, con matrices cuyas dimensiones son pequeñas los tiempos de ejcucion son bastante similares, incluso la ejecucion secuencial obtiene mejores resultados (aunque no por mucho).
 
 ### Prueba #2 
-Para la primera prueba se usaron las siguientes matrices:
+Para la segunda prueba se usaron las siguientes matrices:
 Matriz 1 = 500x800
 Matriz 2 = 800x700
 
@@ -43,7 +43,7 @@ En este caso podemos notar una diferencia considerable, ya que el programa secue
 
 
 ### Prueba #3
-Para la primera prueba se usaron las siguientes matrices:
+Para la tercera y ultima prueba se usaron las siguientes matrices:
 Matriz 1 = 1000x7000
 Matriz 2 = 700x1100
 
