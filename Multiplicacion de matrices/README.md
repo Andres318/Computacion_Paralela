@@ -16,7 +16,7 @@ no radica en los valores contenidos en las matrices sino en las dimensiones de e
 
 ### Prueba #1 
 Para la primera prueba se usaron las siguientes matrices:
-Matriz 1 = 7x6
+Matriz 1 = 7x6, 
 Matriz 2 = 6x9
 
 #### Programa con ejecucion secuencial:
@@ -29,7 +29,7 @@ Como se puede observar, con matrices cuyas dimensiones son pequeñas los tiempos
 
 ### Prueba #2 
 Para la segunda prueba se usaron las siguientes matrices:
-Matriz 1 = 500x800
+Matriz 1 = 500x800, 
 Matriz 2 = 800x700
 
 #### Programa con ejecucion secuencial:
@@ -44,7 +44,7 @@ En este caso podemos notar una diferencia considerable, ya que el programa secue
 
 ### Prueba #3
 Para la tercera y ultima prueba se usaron las siguientes matrices:
-Matriz 1 = 1000x7000
+Matriz 1 = 1000x7000, 
 Matriz 2 = 700x1100
 
 #### Programa con ejecucion secuencial:
