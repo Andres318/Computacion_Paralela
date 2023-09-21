@@ -1,11 +1,11 @@
 # Multiplicacion de Matrices
 
 ### Andres Valenzuela - Codigo:2190035 - Problema B: Multiplicación de Matrices
-En la carpeta presente encontrara los diferentes archivos correspondientes a cada una de las soluciones del problema: solucion secuencial y solucion paralela. El programa cuenta con la capacidad de multiplicar matrices tanto cuadradas (NxN * NxN), como no cuadradas (MxN * N*P), dichas dimensiones se pueden ajustar en las lineas 6, 7 y 8 de cada unos de los codigos en C:
+En la carpeta presente encontrara los diferentes archivos correspondientes a cada una de las soluciones del problema: solucion secuencial y solucion paralela. El programa cuenta con la capacidad de multiplicar matrices tanto cuadradas (NxN * NxN), como no cuadradas (MxN * NxP), dichas dimensiones se pueden ajustar en las lineas 6, 7 y 8 de cada unos de los codigos en C:
 
 ![Alt text](image.png)
 
-Ademas, los valores de cada una de las posiciones de las matrices son numeros aleatorios generados en un rando de 0 a 100, tal y como se puede observar en las lineas 38 y 47:
+Ademas, los valores de cada una de las posiciones de las matrices son numeros aleatorios generados en un rando de 1 a 100, tal y como se puede observar en las lineas 38 y 47:
 
 ![Alt text](image-1.png)
 
@@ -16,7 +16,7 @@ no radica en los valores contenidos en las matrices sino en las dimensiones de e
 
 ### Prueba #1 
 Para la primera prueba se usaron las siguientes matrices:
-Matriz 1 = 7x6
+Matriz 1 = 7x6, 
 Matriz 2 = 6x9
 
 #### Programa con ejecucion secuencial:
@@ -28,8 +28,8 @@ Matriz 2 = 6x9
 Como se puede observar, con matrices cuyas dimensiones son pequeñas los tiempos de ejcucion son bastante similares, incluso la ejecucion secuencial obtiene mejores resultados (aunque no por mucho).
 
 ### Prueba #2 
-Para la primera prueba se usaron las siguientes matrices:
-Matriz 1 = 500x800
+Para la segunda prueba se usaron las siguientes matrices:
+Matriz 1 = 500x800, 
 Matriz 2 = 800x700
 
 #### Programa con ejecucion secuencial:
@@ -43,8 +43,8 @@ En este caso podemos notar una diferencia considerable, ya que el programa secue
 
 
 ### Prueba #3
-Para la primera prueba se usaron las siguientes matrices:
-Matriz 1 = 1000x7000
+Para la tercera y ultima prueba se usaron las siguientes matrices:
+Matriz 1 = 1000x7000, 
 Matriz 2 = 700x1100
 
 #### Programa con ejecucion secuencial:
@@ -57,10 +57,4 @@ Conforme aumentan las dimensiones de las matrices, la ejecucion se torna mas com
 
 
 ### Conclusion
-En matrices con niveles de complejidad bajos la programacion secuencial y la paralela estan practicamente al mismo nivel, sin embargo a medida que la complejidad aumenta, la programacion paralela cuenta con una mejor forma de resolver los problemas cuya carga es considerablemente grande. 
-
-
-
-
-
-
+En matrices con niveles de complejidad bajos la programacion secuencial y la paralela estan practicamente al mismo nivel, sin embargo a medida que la complejidad aumenta, la programacion paralela cuenta con una mejor forma de resolver los problemas cuya carga es considerablemente mas grande. 
