@@ -57,10 +57,4 @@ Conforme aumentan las dimensiones de las matrices, la ejecucion se torna mas com
 
 
 ### Conclusion
-En matrices con niveles de complejidad bajos la programacion secuencial y la paralela estan practicamente al mismo nivel, sin embargo a medida que la complejidad aumenta, la programacion paralela cuenta con una mejor forma de resolver los problemas cuya carga es considerablemente grande. 
-
-
-
-
-
-
+En matrices con niveles de complejidad bajos la programacion secuencial y la paralela estan practicamente al mismo nivel, sin embargo a medida que la complejidad aumenta, la programacion paralela cuenta con una mejor forma de resolver los problemas cuya carga es considerablemente mas grande. 
