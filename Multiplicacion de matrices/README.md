@@ -5,7 +5,7 @@ En la carpeta presente encontrara los diferentes archivos correspondientes a cad
 
 ![Alt text](image.png)
 
-Ademas, los valores de cada una de las posiciones de las matrices son numeros aleatorios generados en un rando de 0 a 100, tal y como se puede observar en las lineas 38 y 47:
+Ademas, los valores de cada una de las posiciones de las matrices son numeros aleatorios generados en un rando de 1 a 100, tal y como se puede observar en las lineas 38 y 47:
 
 ![Alt text](image-1.png)
 
