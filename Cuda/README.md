@@ -31,7 +31,7 @@ Este proyecto asume que estás utilizando un entorno con Slurm y CUDA en su vers
 
 **Nota:** Asegúrate de tener las bibliotecas y herramientas de CUDA instaladas y configuradas correctamente en tu sistema antes de compilar y ejecutar el programa.
 
-##Respuesta del programa
+## Respuesta del programa
 
 Un ejemplo de la salida del programa ese el siguiente:
 
@@ -59,27 +59,27 @@ Max grid dimensions:  (65535, 65535, 65535)
 
 A continuacion se presenta una pequeña descripcion de cada uno de los parametros de la respuesta para entender mejor la informacion proporcionada.
 
-    General Information:
-        Name: Nombre de la GPU.
-        Compute capability: Capacidad de cálculo de la GPU. En este caso, 2.0.
-        Clock rate: Frecuencia del reloj de la GPU.
-        Device copy overlap: Si la GPU permite la superposición de copia de dispositivo.
-        Kernel execution timeout: Si hay un límite de tiempo para la ejecución de kernels.
+### General Information:
+  Name: Nombre de la GPU.   
+  - Compute capability: Capacidad de cálculo de la GPU. En este caso, 2.0.
+  - Clock rate: Frecuencia del reloj de la GPU.
+  - Device copy overlap: Si la GPU permite la superposición de copia de dispositivo.
+  - Kernel execution timeout: Si hay un límite de tiempo para la ejecución de kernels.
 
-    Memory Information:
-        Total global mem: Memoria global total disponible en bytes.
-        Total constant Mem: Memoria constante total disponible en bytes.
-        Max mem pitch: Máximo paso de memoria en bytes.
-        Texture Alignment: Alineación de textura en bytes.
+### Memory Information:
+  Total global mem: Memoria global total disponible en bytes.
+  Total constant Mem: Memoria constante total disponible en bytes.
+  Max mem pitch: Máximo paso de memoria en bytes.
+  Texture Alignment: Alineación de textura en bytes.
 
-    MP Information (Multiprocessor):
-        Multiprocessor count: Número de multiprocesadores en la GPU.
-        Shared mem per mp: Memoria compartida por multiprocesador en bytes.
-        Registers per mp: Número de registros por multiprocesador.
-        Threads in warp: Número de hilos en un warp.
-        Max threads per block: Número máximo de hilos por bloque.
-        Max thread dimensions: Dimensiones máximas de los hilos por bloque.
-        Max grid dimensions: Dimensiones máximas de los bloques en la malla.
+### MP Information (Multiprocessor):
+  Multiprocessor count: Número de multiprocesadores en la GPU.
+  Shared mem per mp: Memoria compartida por multiprocesador en bytes.
+  Registers per mp: Número de registros por multiprocesador.
+  Threads in warp: Número de hilos en un warp.
+  Max threads per block: Número máximo de hilos por bloque.
+  Max thread dimensions: Dimensiones máximas de los hilos por bloque.
+  Max grid dimensions: Dimensiones máximas de los bloques en la malla.
 
 
 En resumen, estos parámetros proporcionan información detallada sobre la GPU, como su capacidad de cálculo, velocidad de reloj, capacidad de memoria y características de multiprocesador. Esta información es útil para optimizar y ajustar el rendimiento de los programas CUDA para aprovechar al máximo la capacidad de la GPU.
