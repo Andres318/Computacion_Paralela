@@ -29,7 +29,19 @@ Si el comando anterior no funciona correctamente, tambien puedes ejecutar los co
 
 Este proyecto asume que estás utilizando un entorno con Slurm y CUDA en su version 8.0 el cual está instalado correctamente. Ajusta según la configuración específica de tu sistema.
 
-**Nota:** Asegúrate de tener las bibliotecas y herramientas de CUDA instaladas y configuradas correctamente en tu sistema antes de compilar y ejecutar el programa.
+Asegúrate de tener las bibliotecas y herramientas de CUDA instaladas y configuradas correctamente en tu sistema antes de compilar y ejecutar el programa.
+
+**Nota:** Si se desea ejecutar el programa de manera interactiva (es decir, el paso a paso para poder compilarlo y ejecutarlo) se deben ejecutar los siguientes comandos:
+
+```plaintext
+module load devtools/cuda/8.0
+
+cd $PWD #Ruta donde se encuentra el proyecto
+
+make
+
+srun ./enum_gpu
+```
 
 ## Respuesta del programa
 
