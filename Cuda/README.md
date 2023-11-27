@@ -35,7 +35,7 @@ Este proyecto asume que estás utilizando un entorno con Slurm y CUDA en su vers
 
 Un ejemplo de la salida del programa ese el siguiente:
 
-
+```plaintext
    --- General Information for device 1 ---
 Name:  Tesla M2075
 Compute capability:  2.0
@@ -55,7 +55,7 @@ Threads in warp:  32
 Max threads per block:  1024
 Max thread dimensions:  (1024, 1024, 64)
 Max grid dimensions:  (65535, 65535, 65535)
-
+```
 
 A continuacion se presenta una pequeña descripcion de cada uno de los parametros de la respuesta para entender mejor la informacion proporcionada.
 
