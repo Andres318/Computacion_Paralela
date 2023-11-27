@@ -33,15 +33,14 @@ Asegúrate de tener las bibliotecas y herramientas de CUDA instaladas y configur
 
 **Nota:** Si se desea ejecutar el programa de manera interactiva (es decir, el paso a paso para poder compilarlo y ejecutarlo) se deben ejecutar los siguientes comandos:
 
-```plaintext
-module load devtools/cuda/8.0
+`module load devtools/cuda/8.0`
 
-cd $PWD #Ruta donde se encuentra el proyecto
+`cd $PWD #Ruta donde se encuentra el proyecto`
 
-make
+`make`
 
-srun ./enum_gpu
-```
+`srun ./enum_gpu`
+
 
 ## Respuesta del programa
 
